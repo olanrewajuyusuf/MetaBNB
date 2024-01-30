@@ -8,7 +8,7 @@ const NotFound = () => {
         setTimeout(()=>{
             navigate('/')
         }, 1000)
-    }, [])
+    }, [navigate])
   return (
     <div>NotFound</div>
   )
